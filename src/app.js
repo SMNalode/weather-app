@@ -38,7 +38,7 @@ app.get('/help', (req,res) => {
     res.render('help',{
         title : 'help',
         name : 'Shri',
-        message : 'please help'
+        message : 'Help Page under construction !'
     })
 })
 
