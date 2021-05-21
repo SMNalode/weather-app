@@ -23,21 +23,21 @@ hbs.registerPartials(partialsPath)
 app.get('', (req,res) => {
     res.render('index',{
         title : 'weather',
-        name : 'Andrew'
+        name : 'Shri'
     })
 })
 
 app.get('/about', (req,res) => {
     res.render('about',{
         title : 'about',
-        name : 'Andrew'
+        name : 'Shri'
     })
 })
 
 app.get('/help', (req,res) => {
     res.render('help',{
         title : 'help',
-        name : 'Andrew',
+        name : 'Shri',
         message : 'please help'
     })
 })
@@ -79,7 +79,7 @@ app.get('/help/*',(req,res) => {
     res.render('404',{
         title : '404',
         message : 'Help page not found',
-        name : 'Andrew'
+        name : 'Shri'
     })
 })
 
@@ -87,7 +87,7 @@ app.get('*',(req,res) => {
     res.render('404',{
         title : '404',
         message : 'page not found',
-        name : 'Andrew'
+        name : 'Shri'
     })
 })
 
